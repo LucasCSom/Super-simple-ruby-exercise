@@ -1,0 +1,46 @@
+require 'json'
+
+class Card
+    attr_accessor :name, :type, :difficulty, :control, :number
+    def initialize ()
+
+    end
+end
+
+class Deck
+    attr_accessor :list
+    def initalize (list)
+        self.list = []
+    end
+end
+
+file = File.read('C:/Users/Lucas/Desktop/Ruby Gaming/Death Shigi.json')
+data_hash = JSON.parse(file)
+deck = Deck.new
+deckList = []
+
+data_hash.each do |hash|
+    card = Card.new
+    hash.each do |key, value|
+        case key
+        when "Number"
+            card.number = value
+        when "Name"
+            card.name = value
+        when "Type"
+            card.type = value
+        when "Difficulty"
+            card.difficulty = value
+        when "Control"
+            card.control = value
+        end
+    end
+    for number in 1..card.number do
+        deckList.push(card)
+    end
+end
+
+deck.list = deckList.shuffle()
+for num in 1..6 do
+    puts deck.list[num].name
+end

@@ -1,0 +1,93 @@
+[
+  {
+    "Number": 4,
+    "Name": "Surviving the Final",
+    "Type": "Foundation",
+    "Difficulty": 0,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Keen Observation",
+    "Type": "Foundation",
+    "Difficulty": 0,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Forcing Surrender",
+    "Type": "Foundation",
+    "Difficulty": 1,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Struggling with Studies",
+    "Type": "Foundation",
+    "Difficulty": 1,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Happy Go Lucky",
+    "Type": "Foundation",
+    "Difficulty": 1,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Super Regeneration",
+    "Type": "Foundation",
+    "Difficulty": 2,
+    "Control": 5
+  },
+  {
+    "Number": 2,
+    "Name": "Bench Press",
+    "Type": "Foundation",
+    "Difficulty": 2,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Excited For Blood",
+    "Type": "Foundation",
+    "Difficulty": 3,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Decaying Grip",
+    "Type": "Attack",
+    "Difficulty": 4,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Float Combo",
+    "Type": "Attack",
+    "Difficulty": 5,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Sudden Death Assault",
+    "Type": "Attack",
+    "Difficulty": 5,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Pillar Swing",
+    "Type": "Attack",
+    "Difficulty": 6,
+    "Control": 5
+  },
+  {
+    "Number": 4,
+    "Name": "Tres Chic Cape",
+    "Type": "Asset",
+    "Difficulty": 1,
+    "Control": 5
+  }
+]
