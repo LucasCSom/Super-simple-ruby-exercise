@@ -9,14 +9,14 @@ end
 
 class Deck
     attr_accessor :list
-    def initalize (list)
-        self.list = []
+    def initalize ()
+
     end
 end
 
 file = File.read('C:/Users/Lucas/Desktop/Ruby Gaming/Death Shigi.json')
 data_hash = JSON.parse(file)
-deck = Deck.new
+deck = Deck.new()
 deckList = []
 
 data_hash.each do |hash|
@@ -40,7 +40,7 @@ data_hash.each do |hash|
     end
 end
 
-deck.list = deckList.shuffle()
+deck.list = deckList.shuffle
 for num in 1..6 do
     puts deck.list[num].name
 end
